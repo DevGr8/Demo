@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#greeting {
+    margin: 0;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333;
+}
+
+.box-container {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+/* Default White Box State */
+.box {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400; /* Normal weight text like screenshot */
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+    user-select: none;
+    
+    /* White background with thin gray border */
+    background-color: white; 
+    color: #333;
+    border: 1px solid #ddd; 
+}
+
+.input-area {
+    display: flex;
+    align-items: center;
+}
+
+#nameInput {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-right: 0;
+    width: 200px;
+}
+
+#greetBtn {
+    padding: 9px 15px;
+    font-size: 14px;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-left: none;
+    cursor: pointer;
+}
+
+#greetBtn:hover {
+    background-color: #bbb;
+}
