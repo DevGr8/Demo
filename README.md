@@ -1,2 +1,2 @@
 # Demo
-it's a demo file with Html + css + JS
+it's a demo file with HTML + CSS + JS
